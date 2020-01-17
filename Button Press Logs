@@ -1,0 +1,50 @@
+2020-01-14 20:38:57.024 31164-31164/com.example.kbluetooth D/ViewRootImpl@88bfbf1[ControlActivity]: ViewPostImeInputStage processPointer 0
+2020-01-14 20:38:57.066 31164-31164/com.example.kbluetooth D/ViewRootImpl@88bfbf1[ControlActivity]: ViewPostImeInputStage processPointer 1
+2020-01-14 20:38:57.078 31164-31164/com.example.kbluetooth D/BluetoothUtils: isSocketAllowedBySecurityPolicy start : device null
+2020-01-14 20:38:57.079 31164-31164/com.example.kbluetooth D/BluetoothSocket: getOutputStream(): myUserId = 0
+2020-01-14 20:38:57.079 31164-31164/com.example.kbluetooth W/System.err: java.io.IOException: Broken pipe
+2020-01-14 20:38:57.079 31164-31164/com.example.kbluetooth W/System.err:     at android.net.LocalSocketImpl.writeba_native(Native Method)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.net.LocalSocketImpl.-wrap3(LocalSocketImpl.java)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.net.LocalSocketImpl$SocketOutputStream.write(LocalSocketImpl.java:144)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.bluetooth.BluetoothSocket.write(BluetoothSocket.java:775)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.bluetooth.BluetoothOutputStream.write(BluetoothOutputStream.java:85)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at java.io.OutputStream.write(OutputStream.java:75)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at com.example.kbluetooth.ControlActivity.sendCommand(ControlActivity.kt:54)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at com.example.kbluetooth.ControlActivity.access$sendCommand(ControlActivity.kt:17)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at com.example.kbluetooth.ControlActivity$onCreate$1.onClick(ControlActivity.kt:38)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.view.View.performClick(View.java:6205)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.widget.TextView.performClick(TextView.java:11103)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.view.View$PerformClick.run(View.java:23653)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.os.Handler.handleCallback(Handler.java:751)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.os.Handler.dispatchMessage(Handler.java:95)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.os.Looper.loop(Looper.java:154)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at android.app.ActivityThread.main(ActivityThread.java:6682)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at java.lang.reflect.Method.invoke(Native Method)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1520)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth W/System.err:     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1410)
+2020-01-14 20:38:57.080 31164-31164/com.example.kbluetooth D/daniel: LED ON was pressed!
+2020-01-14 20:39:03.780 31164-31164/com.example.kbluetooth D/ViewRootImpl@88bfbf1[ControlActivity]: ViewPostImeInputStage processPointer 0
+2020-01-14 20:39:03.940 31164-31164/com.example.kbluetooth D/ViewRootImpl@88bfbf1[ControlActivity]: ViewPostImeInputStage processPointer 1
+2020-01-14 20:39:03.966 31164-31164/com.example.kbluetooth D/BluetoothUtils: isSocketAllowedBySecurityPolicy start : device null
+2020-01-14 20:39:03.966 31164-31164/com.example.kbluetooth D/BluetoothSocket: getOutputStream(): myUserId = 0
+2020-01-14 20:39:03.967 31164-31164/com.example.kbluetooth W/System.err: java.io.IOException: Broken pipe
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.net.LocalSocketImpl.writeba_native(Native Method)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.net.LocalSocketImpl.-wrap3(LocalSocketImpl.java)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.net.LocalSocketImpl$SocketOutputStream.write(LocalSocketImpl.java:144)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.bluetooth.BluetoothSocket.write(BluetoothSocket.java:775)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.bluetooth.BluetoothOutputStream.write(BluetoothOutputStream.java:85)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at java.io.OutputStream.write(OutputStream.java:75)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at com.example.kbluetooth.ControlActivity.sendCommand(ControlActivity.kt:54)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at com.example.kbluetooth.ControlActivity.access$sendCommand(ControlActivity.kt:17)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at com.example.kbluetooth.ControlActivity$onCreate$2.onClick(ControlActivity.kt:41)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.view.View.performClick(View.java:6205)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.widget.TextView.performClick(TextView.java:11103)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.view.View$PerformClick.run(View.java:23653)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.os.Handler.handleCallback(Handler.java:751)
+2020-01-14 20:39:03.968 31164-31164/com.example.kbluetooth W/System.err:     at android.os.Handler.dispatchMessage(Handler.java:95)
+2020-01-14 20:39:03.969 31164-31164/com.example.kbluetooth W/System.err:     at android.os.Looper.loop(Looper.java:154)
+2020-01-14 20:39:03.969 31164-31164/com.example.kbluetooth W/System.err:     at android.app.ActivityThread.main(ActivityThread.java:6682)
+2020-01-14 20:39:03.969 31164-31164/com.example.kbluetooth W/System.err:     at java.lang.reflect.Method.invoke(Native Method)
+2020-01-14 20:39:03.969 31164-31164/com.example.kbluetooth W/System.err:     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1520)
+2020-01-14 20:39:03.969 31164-31164/com.example.kbluetooth W/System.err:     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1410)
+2020-01-14 20:39:03.970 31164-31164/com.example.kbluetooth D/daniel: LED OFF was pressed!
